@@ -1,0 +1,44 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment & Credentials
+.env
+.env.backup
+.env.production
+.env.*.local
+!.env.example
+/auth.json
+
+# Cache & Build
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+
+# Logs & Temporary Files
+*.log
+/logs/
+/tmp/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+# Keep database SQL dump file
+!rivkypsm_foodie.sql
